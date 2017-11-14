@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+ 
+
+
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login_for_teacher_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.log.Login_for_teacher_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login_for_student_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.log.Login_for_student_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register_for_teacher_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.register.Register_for_teacher_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register_for_student_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.register.Register_for_student_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register_for_class_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.register.Register_for_class_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register_for_session_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.register.Register_for_session_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Studentselecter</servlet-name>
+    <servlet-class>xin.miku.hat.selecter.Studentselecter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register_for_studenselecttclass_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.register.Register_for_studenselecttclass_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Testservlet</servlet-name>
+    <servlet-class>xin.miku.hat.Utils.Testservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Classinfor_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Classinfor_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Studentinfor_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Studentinfor_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sessioninfor_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Sessioninfor_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Teacherinfor_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Teacherinfor_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delet_student_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Delet_student_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete_student_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Delete_student_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete_teacher_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Delete_teacher_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete_session_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Delete_session_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete_class_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.Delete_class_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload_student_image</servlet-name>
+    <servlet-class>xin.miku.hat.dao.Upload_student_image</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload_teacher_image</servlet-name>
+    <servlet-class>xin.miku.hat.dao.Upload_teacher_image</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_student_class_infor</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Select_student_class_infor</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_student_class_infor_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Select_student_class_infor_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_student_class_servlet_admin</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Select_student_class_servlet_admin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Get_student_infor</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Get_student_infor</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Get_a_student_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Get_a_student_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register_for_session_class_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.register.Register_for_session_class_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_session_class_infor_serlvet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Select_session_class_infor_serlvet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Print_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.Print_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Get_class_in_studentorder_servlet</servlet-name>
+    <servlet-class>xin.miku.hat.dao.administrator.Get_class_in_studentorder_servlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login_for_teacher_servlet</servlet-name>
+    <url-pattern>/servlet/Login_for_teacher_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login_for_student_servlet</servlet-name>
+    <url-pattern>/Login_for_student_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register_for_teacher_servlet</servlet-name>
+    <url-pattern>/Register_for_teacher_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register_for_student_servlet</servlet-name>
+    <url-pattern>/Register_for_student_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register_for_class_servlet</servlet-name>
+    <url-pattern>/Register_for_class_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register_for_session_servlet</servlet-name>
+    <url-pattern>/Register_for_session_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Studentselecter</servlet-name>
+    <url-pattern>/Studentselecter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register_for_studenselecttclass_servlet</servlet-name>
+    <url-pattern>/Register_for_studenselecttclass_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Testservlet</servlet-name>
+    <url-pattern>/Testservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Classinfor_servlet</servlet-name>
+    <url-pattern>/Classinfor_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Studentinfor_servlet</servlet-name>
+    <url-pattern>/Studentinfor_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sessioninfor_servlet</servlet-name>
+    <url-pattern>/Sessioninfor_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Teacherinfor_servlet</servlet-name>
+    <url-pattern>/Teacherinfor_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delet_student_servlet</servlet-name>
+    <url-pattern>/Delet_student_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete_student_servlet</servlet-name>
+    <url-pattern>/Delete_student_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete_teacher_servlet</servlet-name>
+    <url-pattern>/Delete_teacher_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete_session_servlet</servlet-name>
+    <url-pattern>/Delete_session_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete_class_servlet</servlet-name>
+    <url-pattern>/Delete_class_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload_student_image</servlet-name>
+    <url-pattern>/Upload_student_image</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload_teacher_image</servlet-name>
+    <url-pattern>/Upload_teacher_image</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_student_class_infor</servlet-name>
+    <url-pattern>/Select_student_class_infor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_student_class_infor_servlet</servlet-name>
+    <url-pattern>/Select_student_class_infor_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_student_class_servlet_admin</servlet-name>
+    <url-pattern>/Select_student_class_servlet_admin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Get_student_infor</servlet-name>
+    <url-pattern>/Get_student_infor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Get_a_student_servlet</servlet-name>
+    <url-pattern>/Get_a_student_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register_for_session_class_servlet</servlet-name>
+    <url-pattern>/Register_for_session_class_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_session_class_infor_serlvet</servlet-name>
+    <url-pattern>/Select_session_class_infor_serlvet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Print_servlet</servlet-name>
+    <url-pattern>/Print_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Get_class_in_studentorder_servlet</servlet-name>
+    <url-pattern>/Get_class_in_studentorder_servlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
